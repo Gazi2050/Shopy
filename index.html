@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopy</title>
+    <link rel="shortcut icon" href="images/cart.png" type="image/x-icon">
+    <!-- Daisyui-link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <!-- Tailwind-link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Fontawesome-link -->
+    <script src="https://kit.fontawesome.com/143ac30e83.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class=" md:flex lg:flex justify-center items-center bg-[#F9F6E2] py-9">
+        <div class="text-center">
+            <h4 class="text-2xl font-normal mb-20">---SALE FEVER---</h4>
+            <h1 class="text-2xl font-bold mb-20 lg:text-5xl">Purchase TK 200 or<br> above & get <span
+                    class="text-[#E527B2]">20%
+                    off</span>
+            </h1>
+            <span class="text-xl font-medium mr-3">Use Promo Code</span>
+            <button class="btn bg-[#E527B2] text-white text-2xl font-semibold px-3 py-1 rounded-md hover:bg-[#ae2b8b]"
+                id="SELL200">SELL200</button>
+        </div>
+        <div><img class="w-[500px]" src="images/Summer 1.png" alt="" srcset=""></div>
+    </header>
+    <main class="bg-slate-100 p-10">
+
+        <section
+            class="w-auto mx-auto grid lg:grid-cols-4 gap-4 lg:my-24 md:grid-cols-2 md:my-16 sm:grid-cols-1 sm:my-12 md:items-center">
+            <div
+                class="lg:col-span-3 md:col-span-2 sm:col-span-1 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4">
+                <h1 class="text-4xl font-semibold">Kitchenware</h1>
+            </div>
+            <div
+                class="lg:col-span-3 md:col-span-2 sm:col-span-1 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4">
+                <!-- card-1 -->
+                <div class="rounded-md bg-white p-2  lg:col-span-1 md:col-span-1 sm:col-span-1" id="card-1">
+                    <div class="bg-slate-200 m-3 p-2 rounded-md"><img src="images/prod1.png" alt="#" class="mx-auto">
+                    </div>
+                    <div class="text-center"><span><i class="fa-solid fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-solid fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-solid fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-regular fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-regular fa-star fa-lg" style="color: #FFC107;"></i></span>
+                    </div>
+                    <p class="text-xl font-semibold text-center mt-4" id="pro-1">Kitchen Appliances</p>
+                    <p class="text-xl font-normal text-center text-gray-400 mt-4">39.00 TK</p>
+
+                </div>
+                <!-- card-2 -->
+                <div class="rounded-md bg-white p-2  lg:col-span-1 md:col-span-1 sm:col-span-1" id="card-2">
+                    <div class="bg-slate-200 m-3 p-2 rounded-md"><img src="images/prod2.png" alt="#" class="mx-auto">
+                    </div>
+                    <div class="text-center">
+                        <span><i class="fa-regular fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-regular fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-regular fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-regular fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-regular fa-star fa-lg" style="color: #FFC107;"></i></span>
+                    </div>
+                    <p class="text-xl font-semibold text-center mt-4" id="pro-2">Kitchen Accessories</p>
+                    <p class="text-xl font-normal text-center text-gray-400 mt-4">25.00 TK</p>
+
+                </div>
+                <!-- card-3 -->
+                <div class="rounded-md bg-white p-2  lg:col-span-1 md:col-span-1 sm:col-span-1" id="card-3">
+                    <div class="bg-slate-200 m-3 p-2 rounded-md"><img src="images/prod3.png" alt="#" class="mx-auto">
+                    </div>
+                    <div class="text-center">
+                        <span><i class="fa-solid fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-solid fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-solid fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-solid fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-regular fa-star fa-lg" style="color: #FFC107;"></i></span>
+                    </div>
+                    <p class="text-xl font-semibold text-center mt-4" id="pro-3">Home Cooker</p>
+                    <p class="text-xl font-normal text-center text-gray-400 mt-4">49.00 TK</p>
+
+                </div>
+            </div>
+            <div
+                class="lg:col-span-3 md:col-span-2 sm:col-span-1 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4">
+                <h1 class="text-4xl font-semibold">Sportswear</h1>
+            </div>
+            <div
+                class="lg:col-span-3 md:col-span-2 sm:col-span-1 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4">
+                <!-- card-4 -->
+                <div class="rounded-md bg-white p-2  lg:col-span-1 md:col-span-1 sm:col-span-1" id="card-4">
+                    <div class="bg-slate-200 m-3 p-2 rounded-md"><img src="images/prod4.png" alt="#" class="mx-auto">
+                    </div>
+                    <div class="text-center">
+                        <span><i class="fa-solid fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-solid fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-regular fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-regular fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-regular fa-star fa-lg" style="color: #FFC107;"></i></span>
+                    </div>
+                    <p class="text-xl font-semibold text-center mt-4" id="pro-4">Sports Black Cap</p>
+                    <p class="text-xl font-normal text-center text-gray-400 mt-4">49.00 TK</p>
+
+                </div>
+                <!-- card-5 -->
+                <div class="rounded-md bg-white p-2  lg:col-span-1 md:col-span-1 sm:col-span-1" id="card-5">
+                    <div class="bg-slate-200 m-3 p-2 rounded-md"><img src="images/prod5.png" alt="#" class="mx-auto">
+                    </div>
+                    <div class="text-center">
+                        <span><i class="fa-solid fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-solid fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-solid fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-solid fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-regular fa-star fa-lg" style="color: #FFC107;"></i></span>
+                    </div>
+                    <p class="text-xl font-semibold text-center mt-4" id="pro-5">Full Jersey Set</p>
+                    <p class="text-xl font-normal text-center text-gray-400 mt-4">69.00 TK</p>
+
+                </div>
+                <!-- card-6 -->
+                <div class="rounded-md bg-white p-2  lg:col-span-1 md:col-span-1 sm:col-span-1" id="card-6">
+                    <div class="bg-slate-200 m-3 p-2 rounded-md"><img src="images/prod6.png" alt="#" class="mx-auto">
+                    </div>
+                    <div class="text-center">
+                        <span><i class="fa-solid fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-solid fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-solid fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-regular fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-regular fa-star fa-lg" style="color: #FFC107;"></i></span>
+                    </div>
+                    <p class="text-xl font-semibold text-center mt-4" id="pro-6">sports cates</p>
+                    <p class="text-xl font-normal text-center text-gray-400 mt-4">159.00 TK</p>
+
+                </div>
+            </div>
+            <div
+                class="lg:col-span-3 md:col-span-2 sm:col-span-1 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4">
+                <h1 class="text-4xl font-semibold">Furniture</h1>
+            </div>
+            <div
+                class="lg:col-span-3 md:col-span-2 sm:col-span-1 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4">
+                <!-- card-7 -->
+                <div class="rounded-md bg-white p-2  lg:col-span-1 md:col-span-1 sm:col-span-1" id="card-7">
+                    <div class="bg-slate-200 m-3 p-2 rounded-md"><img src="images/prod7.png" alt="#" class="mx-auto">
+                    </div>
+                    <div class="text-center">
+                        <span><i class="fa-solid fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-solid fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-solid fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-solid fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-regular fa-star fa-lg" style="color: #FFC107;"></i></span>
+                    </div>
+                    <p class="text-xl font-semibold text-center mt-4" id="pro-7">Single Relax Chair</p>
+                    <p class="text-xl font-normal text-center text-gray-400 mt-4">185.00 TK</p>
+
+                </div>
+                <!-- card-8 -->
+                <div class="rounded-md bg-white p-2  lg:col-span-1 md:col-span-1 sm:col-span-1" id="card-8">
+                    <div class="bg-slate-200 m-3 p-2 rounded-md"><img src="images/prod8.png" alt="#" class="mx-auto">
+                    </div>
+                    <div class="text-center">
+                        <span><i class="fa-solid fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-solid fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-solid fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-solid fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-solid fa-star fa-lg" style="color: #FFC107;"></i></span>
+                    </div>
+                    <p class="text-xl font-semibold text-center mt-4" id="pro-8">Children play</p>
+                    <p class="text-xl font-normal text-center text-gray-400 mt-4">299.00 TK</p>
+
+                </div>
+                <!-- card-9 -->
+                <div class="rounded-md bg-white p-2  lg:col-span-1 md:col-span-1 sm:col-span-1" id="card-9">
+                    <div class="bg-slate-200 m-3 p-2 rounded-md"><img src="images/prod9.png" alt="#" class="mx-auto">
+                    </div>
+                    <div class="text-center">
+                        <span><i class="fa-solid fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-solid fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-solid fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-solid fa-star fa-lg" style="color: #FFC107;"></i></span>
+                        <span><i class="fa-solid fa-star fa-lg" style="color: #FFC107;"></i></span>
+                    </div>
+                    <p class="text-xl font-semibold text-center mt-4" id="pro-9">Flexible Sofa</p>
+                    <p class="text-xl font-normal text-center text-gray-400 mt-4">339.00 TK</p>
+
+                </div>
+            </div>
+            <div class="row-span-6 lg:mt-[-1500px]">
+                <div class="bg-white rounded-md p-4">
+                    <h3 class="text-xl font-medium mb-2">
+                        Have coupon?
+                    </h3>
+                    <div class="flex"><input placeholder="Coupon code"
+                            class="w-full h-12 bg-slate-50 border border-gray-300 rounded-l-md p-2" type="text" name=""
+                            id="Coupon-bar">
+                        <button id="apply-btn"
+                            class="btn  bg-[#E527B2] text-white rounded-none rounded-r-md hover:bg-[#ae2b8b] "
+                            disabled="disabled">Apply</button>
+                    </div>
+
+
+                </div>
+                <div class="bg-white rounded-md p-4 mt-6">
+                    <ol class="list-decimal pl-4 mt-1 py-4 " id="list">
+
+                    </ol>
+                    <hr>
+                    <div class="mt-4 grid grid-cols-1 gap-2">
+                        <p class="font-semibold">Total price : <span class="text-gray-400" id="Total price">00.00</span>
+                            <span class="text-gray-400">TK</span>
+                        </p>
+                        <p class="font-semibold">Discount : <span class="text-gray-400" id="Discount">00.00</span>
+                            <span class="text-gray-400">TK</span>
+                        </p>
+                        <p class="font-semibold">Total : <span class="text-gray-400" id="Total">00.00</span> <span
+                                class="text-gray-400">TK</span>
+                        </p>
+
+                    </div>
+                    <hr>
+                    <div class="text-center">
+                        <button
+                            class="btn bg-[#E527B2] hover:bg-[#ae2b8b] px-12  rounded-md  text-white mt-4 font-semibold text-[11px] xl:text-base"
+                            onclick="my_modal_1.showModal()" id="Make Purchase" disabled="disabled">Make
+                            Purchase</button>
+                        <dialog id="my_modal_1" class="modal">
+                            <form method="dialog" class="modal-box">
+                                <div class="flex justify-center items-center"><img class="text-center w-24 "
+                                        src="images/congo.png" alt="" srcset="">
+                                </div>
+
+                                <h1 class="font-bold text-3xl">Congratulations</h1>
+                                <p class="py-4 text-base font-normal text-gray-400">Your Purchase the product</p>
+                                <div class="text-center">
+                                    <button class="btn text-xl font-semibold text-white bg-[#E527B2] hover:bg-[#ae2b8b]"
+                                        id="home">Go
+                                        Home</button>
+                                </div>
+                            </form>
+                        </dialog>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="shopy.js"></script>
+</body>
+
+</html>
